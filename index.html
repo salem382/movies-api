@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/libs/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome-free-6.1.1-web/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>JS assignment</title>
+</head>
+<body>
+    
+    <!--start sidebar-->
+
+    <section class="sideBar"> 
+        <div class="sideBar-leftpart">
+            <ul class="links">
+                <li><a href="#" id="now_playing">Now Playing</a></li>
+                <li><a href="#" id="popular">Popular</a></li>
+                <li><a href="#" id="top_rated">Top Rated</a></li>
+                <li><a href="#" id="trending">Trending</a></li>
+                <li><a href="#" id="upcoming">Upcoming</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+            <div class="social-links">
+                <span><i class="fa-brands fa-facebook-f"></i></span>
+                <span><i class="fa-brands fa-twitter"></i></span>
+                <span><i class="fa-solid fa-globe"></i></span>
+            </div>
+            <div class="copy-right">
+                Copyright Â© 2019 All Rights Reserved.
+            </div>
+        </div>
+        <div class="open-sidebar">
+            <div class="photo"><img src="images/1.png"/></div>
+            <div class="open-icon">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="icons">
+                <span><i class="fa-solid fa-globe"></i></span>
+                <span><i class="fa-solid fa-share-nodes"></i></span>
+            </div>
+        </div>
+    </section>
+
+    <!--End sidebar-->
+
+    <!--start search-->
+
+    <section class="search">
+       <form>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="content">
+                        <span id="left">get Movis By Word ...</span>
+                        <input id="getMovieInput" type="text" data-ipt="left" />
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="content">
+                        <span id="right">Search ...</span>
+                        <input id="searchInput" type="text" data-ipt="right"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </form>
+    </section>
+
+    <!--End Search-->
+
+    <!--start mvs-->
+
+
+    <section class="mvs">
+        <div class="container">
+            <div class="mb-5 gy-3 row searched-mv">
+
+            </div>
+            <div class="row gy-3 basic-mv">
+                
+            </div> 
+        </div>
+    </section>
+
+    <!--End mvs-->
+
+    <!--start Contact us-->
+
+    <section class="contact" id="contact">
+        <h2>ContacUs...</h2>
+        <form>
+         <div class="container">
+             <div class="row">
+                 <div class="col-md-6">
+                     <div class="content">
+                         <span id="name">Enter Your Name </span>
+                         <input type="text" data-ipt="name" id="NameInput" />
+                         <div id="NameAlert" class="alert alert-danger" role="alert">
+                            Your Name is not valid
+                          </div>
+                     </div>
+                 </div>
+                 <div class="col-md-6">
+                     <div class="content">
+                         <span id="email">Enter Email</span>
+                         <input id="emailInput" type="text" data-ipt="email"/>
+                         <div id="emailAlert" class="alert alert-danger" role="alert">
+                            Entre valid email
+                          </div>
+                     </div>
+                 </div>
+                 <div class="col-md-6">
+                    <div class="content">
+                        <span id="phone">Enter Phone</span>
+                        <input id="phoneInput" type="text" data-ipt="phone" />
+                        <div id="phoneAlert" class="alert alert-danger" role="alert">
+                            entre valid phone
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="content">
+                        <span id="age">Enter Age</span>
+                        <input type="text" data-ipt="age"/>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="content">
+                        <span id="password">Enter Password</span>
+                        <input id="inputPassword" type="text" data-ipt="password" />
+                        <div id="alertPassword" class="alert alert-danger" role="alert">
+                            entre valid password *Minimum eight characters, at least one letter and one number:*
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="content">
+                        <span id="RePssword">Enter RePssword</span>
+                        <input type="text" data-ipt="RePssword"/>
+                    </div>
+                </div>
+             </div>
+          </div>
+          <button>Submit</button>
+        </form>
+     </section>
+
+    <!--End Contact us-->
+
+
+    <script src="js/libs/jquery-3.6.0.min.js"></script>
+    <script src="js/libs/bootstrap.bundle.min.js"></script>
+    <script src="fontawesome-free-6.1.1-web/js/all.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
