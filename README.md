@@ -12,6 +12,6 @@ https://salem382.github.io/movies-api/
 <a href ="#"> <img align="center" src="./images/15.png" height="50" width="50"/></a>
 <a href ="#"> <img align="center" src="./images/16.png" height="50" width="50"/></a>
 <a href ="#"> <img align="center" src="./images/20.png" height="50" width="50"/></a>
-<a href ="#"> <img align="center" src="./images/21.png" height="50" width="50"/></a>
+<a href ="#"> <img align="center" src="./images/21.jpg" height="50" width="50"/></a>
 
 
