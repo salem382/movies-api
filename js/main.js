@@ -203,6 +203,8 @@ let key = 'db1fc41949e531723662d766a8409954';
 async function fetchData (word) {
     if (word == 'trending') {
         var url = `https://api.themoviedb.org/3/trending/movie/day?api_key=${key}`
+    }else if (word == 'popular') {
+        var url = `https://api.themoviedb.org/3/movie/${word}?api_key=${key}&language=en-US&page=2`
     } else {
         var url = `https://api.themoviedb.org/3/movie/${word}?api_key=${key}&language=en-US&page=1`
     }
